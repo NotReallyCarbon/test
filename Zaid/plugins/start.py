@@ -1,7 +1,7 @@
-from .. import bot
+from .. import Zaid
 from telethon import events, Button
 
-@bot.on(events.NewMessage(incoming=True, pattern="/start"))
+@Zaid.on(events.NewMessage(incoming=True, pattern="/start"))
 async def start(event):
     await event.reply("Hello! Welcome To Music Bot Based On Telethon",
                     buttons=[
