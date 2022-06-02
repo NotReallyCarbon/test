@@ -1,4 +1,4 @@
-from .. import Zaid
+from Zaid import Zaid
 from telethon import events, Button
 
 @Zaid.on(events.NewMessage(incoming=True, pattern="/start"))
