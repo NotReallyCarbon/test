@@ -5,7 +5,7 @@ import glob
 from pathlib import Path
 from Zaid.utils import load_plugins
 import logging
-from Zaid import Zaid
+from . import Zaid
 
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
                     level=logging.INFO)
